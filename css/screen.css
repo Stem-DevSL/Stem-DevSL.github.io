@@ -103,7 +103,11 @@ strong {
     height: 55px;
   }
 
-    .google {width: 170px; margin: 0px 30px 0px 50px}
+  .search-eng:hover{
+    margin-top: -5px;
+  }
+
+    .google {width: 170px; margin: 0px 30px 0px 82px}
     .bing  {width: 102px; margin-right: 30px}
     .yahoo  {width: 200px; margin-right: 30px}
     .duckduckgo  {width: 320px; margin-right: 30px}
@@ -111,7 +115,7 @@ strong {
       .google img{height: 55px}
       .bing  img{height: 55px}
       .yahoo  img{height: 55px}
-      .duckduckgo  img{height: 40px; margin-top: 8px}
+      .duckduckgo  img{height: 44px}
 
   .content-b{
     display: flex;
@@ -143,19 +147,23 @@ strong {
         }
 
           .youtube {
-            background-color: #ff0000ff;
+            background: #B20000;
+            background: linear-gradient(0deg,rgba(178, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
           }
 
           .twitch {
-            background-color: #6441a5ff;
+            background: #462D73;
+            background: linear-gradient(0deg,rgba(70, 45, 115, 1) 0%, rgba(100, 65, 165, 1) 100%);
           }
 
           .kick {
-            background-color: #333333ff;
+            background: #1A1A1A;
+            background: linear-gradient(0deg,rgba(26, 26, 26, 1) 0%, rgba(51, 51, 51, 1) 100%);
           }
 
           .vimeo {
-            background-color: #1ab7eaff;
+            background: #148FB8;
+            background: linear-gradient(0deg,rgba(20, 143, 184, 1) 0%, rgba(26, 183, 234, 1) 100%);
           }
 
             .vimeo img{top: 46%}
@@ -190,13 +198,16 @@ strong {
     }
 
         .plutotv{
-          background-color: #333333ff;
+          background: #1A1A1A;
+          background: linear-gradient(0deg,rgba(26, 26, 26, 1) 0%, rgba(51, 51, 51, 1) 100%);
         }
 
         .plex{
-          background-color: #333333ff;
+          background: #1A1A1A;
+          background: linear-gradient(0deg,rgba(26, 26, 26, 1) 0%, rgba(51, 51, 51, 1) 100%);
         }
 
         .vix{
-          background-color: #ff5900ff;
+          background: #B23E00;
+          background: linear-gradient(0deg,rgba(178, 62, 0, 1) 0%, rgba(255, 89, 0, 1) 100%);
         }

@@ -39,7 +39,7 @@
   </div>
 
   <audio id="beep" preload="auto">
-    <source src="sounds/button.mp3"></source>
+    <source src="sounds/button.mp3?raw=true"></source>
   </audio>
   <script type="text/javascript">
     var beepOne = $("#beep")[0];
@@ -47,6 +47,9 @@
       $(".beep")
        .mouseenter(function() {
       beepOne.play();
+    });
+    $(".beep").mouseenter(function() {
+      beepOne.play().catch(error => console.log("Autoplay bloqueado:", error));
     });
   </script>
 

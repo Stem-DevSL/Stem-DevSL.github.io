@@ -62,7 +62,7 @@ strong {
 
     .spacer-sb{
       width: auto;
-      height: 727px;
+      height: 700px;
     }
 
       .spacer-icsb{
@@ -70,7 +70,14 @@ strong {
         bottom: 0px;
       }
 
-  .content{
+  .flexmedia{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content:center;
+  }
+
+  .content-b{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -87,18 +94,54 @@ strong {
       border-radius: 10px;
     }
 
-    .streaming:hover{
-      cursor: pointer;
-      top: -5px;
-    }
+        .streaming:hover{
+          top: -5px;
+        }
 
-    .str-link{
-      width: 400px;
-      height: 220px;
+        .streaming img{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50% , -50%);
+          width: 300px;
+        }
+
+          .youtube {
+            background-color: #ff0000ff;
+          }
+
+          .twitch {
+            background-color: #6441a5ff;
+          }
+
+          .kick {
+            background-color: #333333ff;
+          }
+
+          .vimeo {
+            background-color: #1ab7eaff;
+          }
+
+            .vimeo img{top: 46%}
+
+.content-c{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+    .tv{
+      position: relative;
+      width: 540px;
+      height: 300px;
       margin: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
     }
 
-    .streaming img{
+    .tv img{
       position: absolute;
       top: 50%;
       left: 50%;
@@ -106,20 +149,18 @@ strong {
       width: 300px;
     }
 
-      .youtube {
-        background-color: #ff0000ff;
-      }
+    .tv:hover{
+      top: -5px;
+    }
 
-      .twitch {
-        background-color: #6441a5ff;
-      }
+        .plutotv{
+          background-color: #333333ff;
+        }
 
-      .kick {
-        background-color: #333333ff;
-      }
+        .plex{
+          background-color: #333333ff;
+        }
 
-      .vimeo {
-        background-color: #1ab7eaff;
-      }
-
-        .vimeo img{top: 46%}
+        .vix{
+          background-color: #ff5900ff;
+        }

@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STEM Screen v1.0</title>
     <link rel="stylesheet" href="css/screen.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 <body>
 
   <div class="main">
 
     <div class="sidebar">
-      <img src="images/logo-tv.png" alt="logo-tv">
+      <img src="images/logo-tv.png" alt="">
       <div class="spacer-sb"></div>
       <a href="https://www.tiktok.com/"><img class="spacer-icsb linksm" src="images/logo-tiktok.png" alt="logo-sl"></a>
       <a href="https://www.flickr.com/"><img class="spacer-icsb linksm" src="images/logo-flickr.png" alt="logo-sl"></a>
@@ -21,28 +20,24 @@
       <a href="https://secondlife.com/"><img class="linksm" src="images/logo-sl.png" alt="logo-sl"></a>
     </div>
 
-    <div class="content">
-      <a class="str-link" href="https://www.youtube.com/"><div class="streaming youtube"><img src="images/logo-youtube.png" alt="Youtube"></div>
+    <div class="flexmedia">
 
-      </a>
-      <a class="str-link" href="https://www.twitch.tv/"><div class="streaming twitch"><img src="images/logo-twitch.png" alt="Twitch"></div></a>
-      <a class="str-link" href="https://kick.com/"><div class="streaming kick"><img src="images/logo-kick.png" alt="Kick"></div></a>
-      <a class="str-link" href="https://vimeo.com/"><div class="streaming vimeo"><img src="images/logo-vimeo.png" alt="Vimeo"></div></a>
+      <div class="content-b">
+        <a href="https://www.youtube.com/"><div class="streaming youtube"><img src="images/logo-youtube.png" alt="Youtube"></div></a>
+        <a href="https://www.twitch.tv/"><div class="streaming twitch"><img src="images/logo-twitch.png" alt="Twitch"></div></a>
+        <a href="https://kick.com/"><div class="streaming kick"><img src="images/logo-kick.png" alt="Kick"></div></a>
+        <a href="https://vimeo.com/"><div class="streaming vimeo"><img src="images/logo-vimeo.png" alt="Vimeo"></div></a>
+      </div>
+
+      <div class="content-c">
+        <a href="https://pluto.tv/"><div class="tv plutotv"><img src="images/logo-plutotv.png" alt="PlutoTv"></div></a>
+        <a href="https://watch.plex.tv/"><div class="tv plex"><img src="images/logo-plex.png" alt="Plex"></div></a>
+        <a href="https://vix.com/"><div class="tv vix"><img src="images/logo-vix.png" alt="Vix"></div></a>
+      </div>
+
     </div>
 
   </div>
-
-  <audio id="beep" preload="auto">
-    <source src="sounds/button.mp3"></source>
-  </audio>
-  <script type="text/javascript">
-    var beepOne = $("#beep")[0];
-      beepOne.volume = 0.2;
-      $(".streaming")
-       .mouseenter(function() {
-      beepOne.play();
-    });
-  </script>
 
 </body>
 </html>

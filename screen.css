@@ -41,7 +41,7 @@ strong {
   flex-direction: column;
   width: 100%;
   height: 1080px;
-  background-image: url(images/bg-screen.png);
+  background-color: #141414ff;
 }
 
 .spacer-fr{
@@ -57,7 +57,7 @@ strong {
   }
 
   .sidebar img{
-    opacity: 0.5;
+    opacity: 0.35;
   }
 
   .linksm:hover{

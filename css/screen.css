@@ -74,7 +74,6 @@ strong {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-top: 100px;
     justify-content: center;
   }
 
@@ -89,6 +88,7 @@ strong {
     }
 
     .streaming:hover{
+      cursor: pointer;
       top: -5px;
     }
 

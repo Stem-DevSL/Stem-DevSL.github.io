@@ -53,7 +53,7 @@ strong {
     width: 3.7%;
     height: 1040px;
     padding: 0px 20px 0px 20px;
-    border-right: 1px solid #808080ff;
+    border-right: 2px solid #808080ff;
   }
 
   .sidebar img{
@@ -66,7 +66,7 @@ strong {
 
     .spacer-sb{
       width: auto;
-      height: 760px;
+      height: 755px;
     }
 
       .spacer-icsb{

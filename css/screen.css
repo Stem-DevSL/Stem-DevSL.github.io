@@ -39,18 +39,17 @@ strong {
 .main{
   display: flex;
   flex-direction: row;
-  width: 2048px;
-  height: 1152px;
+  width: 1920px;
+  height: 1080px;
   padding: 20px 0px 20px 20px;
   background-image: url('../images/bg-screen.webp');
-  background-size: cover;
 }
 
   .sidebar{
     display: flex;
     flex-direction: column;
     width: 4%;
-    height: 1112px;
+    height: 1040px;
     background-color: rgba(255, 255, 255, 0.05);
     padding: 20px 20px 20px 20px;
     -webkit-border-radius: 10px;
@@ -110,7 +109,7 @@ strong {
     margin-top: -5px;
   }
 
-    .google {width: 170px; margin: 0px 30px 0px 143px}
+    .google {width: 170px; margin: 0px 30px 0px 80px}
     .bing  {width: 102px; margin-right: 30px}
     .yahoo  {width: 200px; margin-right: 30px}
     .duckduckgo  {width: 320px; margin-right: 30px}
